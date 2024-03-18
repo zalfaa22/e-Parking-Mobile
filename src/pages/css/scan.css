@@ -1,0 +1,145 @@
+.button-bottom {
+    position: fixed;
+    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 375px;
+    width: calc(100% - 30px); /* Menggunakan calc() untuk mengurangi padding */
+    padding: 0 15px;
+    text-align: center; /* Menengahkan teks tombol */
+  }
+  
+  .button-bottom .scan button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #F5F5F5;
+    background-color: #269544;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15.12px;
+  }
+  
+  .button-bottom .scan img {
+    margin-right: 8px;
+  }
+  
+
+.scan-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* DETAIL  */
+/* .search{
+    position: relative;
+    display: inline-block;
+  } */
+.scanmasuk .content {
+    padding-top: 24px;
+}
+.scanmasuk .form {
+    margin-bottom: 16px;
+}
+.scanmasuk .form p {
+    margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+}
+.scanmasuk .form-control {
+    width: 100%;
+    height: 44px;
+    background-color: transparent;
+    padding: 12px;
+    border: 1px solid #E6E6E6;
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #55595C;
+}
+.scanmasuk .form-control::placeholder {
+    color: #55595C;
+}
+.scanmasuk .form-control4 {
+    width: 100%;
+    height: 44px;
+    background-color: white !important;
+    padding: 12px;
+    border: 1px solid #E6E6E6;
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #55595C !important;
+}
+.scanmasuk .form-control4::placeholder {
+    color: #CDD0D3;
+}
+.scanmasuk .pelaksanaan , .jam {
+    position: relative;
+    display: inline-block;
+}
+.scanmasuk .pelaksanaan::before {
+    content: url('../../../public/assets/scan/Clock Square.svg'); 
+    position: absolute;
+    right: 18px;
+    top: 55%;
+    transform: translateY(-50%);
+  }
+  .scanmasuk .jam::before {
+    content: url('../../../public/assets/scan/Clock Circle.svg');
+    position: absolute;
+    right: 18px; 
+    top: 55%;
+    transform: translateY(-50%);
+  }
+
+.scanmasuk .card-wrap {
+    width: 100%;
+    display: flex;
+}
+.scanmasuk .group {
+    padding: 0px;
+}
+.scanmasuk .card {
+    padding: 24px 15px 24px 15px;
+    background-color: rgba(81, 180, 108, 0.2);
+    border: 1px solid #269544;
+    border-radius: 12px;
+    height: 224px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.scanmasuk .card p {
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+    color: #269544;
+    margin-top: 8px !important;
+}
+
+.scankeluar .card1 {
+    background-image: url('../../../public/assets/scan/img1.svg');
+}
+.scankeluar .card2 {
+    background-image: url('../../../public/assets/scan/img2.svg');
+}
+.scankeluar .button-bottom {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 375px;
+    width: calc(100% - 30px); /* Menggunakan calc() untuk mengurangi padding */
+    padding: 0 15px;
+    text-align: center; /* Menengahkan teks tombol */
+  }

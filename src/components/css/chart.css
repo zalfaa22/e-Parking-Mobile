@@ -1,0 +1,41 @@
+.chart .wrap {
+    padding: 0 18px 0 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chart .wraper {
+    gap: 16px;
+    overflow-x: auto;
+}
+.chart .wrap p {
+    font-size: 12px;
+    line-height: 16px;
+    color: black;
+}
+.chart .size-chart {
+    gap: 4px;
+    margin-bottom: 16px;
+}
+.chart .dengan {
+    width: 32px;
+    height: 218px;
+    background-color: #269544;
+    border-radius: 8px;
+}
+.chart .tanpa {
+    width: 32px;
+    height: 48px;
+    background-color: #952626;
+    border-radius: 8px;
+}
+.chart .keterangan {
+    margin-top: 16px;
+    font-size: 12px;
+    line-height: 120%;
+    gap: 50px;
+    color: black;
+}
+.chart .keterangan img {
+    margin-right: 8px;
+}

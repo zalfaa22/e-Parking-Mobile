@@ -1,0 +1,109 @@
+.container {
+    padding: 44px 15px 0 15px;
+    background-color: #F0F2F5;
+    min-height: 100vh;
+    max-width: 375px;
+  }
+  .container2 {
+    padding: 88px 15px 0 15px;
+    background-color: #F0F2F5;
+    min-height: 100vh;
+    max-width: 375px;
+    margin: 0 auto !important;
+  }
+.content {
+    flex: 1;
+  overflow-y: auto; 
+  /* max-height: calc(100vh - 80px); */
+}
+.home .profile {
+    padding: 24px 0 24px 0;
+}  
+.home .profile img {
+    margin-right: 8px;
+}
+.home .profile-text1 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0px;
+}
+.home .profile-text2 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23.2px;
+    margin: 0px;
+}
+
+.home .card1 {
+    padding: 24px;
+    background-color: #EEF3F7;
+    border: 1px solid #9ED4D7;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+.home .card1 .card-text {
+    width: 100%;
+    text-align: center;
+}
+.home .card-text .text1 {
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.home .card-text .text2 {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #268E95;
+    margin: 0px;
+}
+
+.home .double-card {
+    gap: 16px;
+}
+.home .card2 {
+    padding: 24px;
+    background-color: #D0E6DA;
+    border: 1px solid #269544;
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+.home .card2 img {
+    margin-bottom: 24px;
+}
+.home .card-text .text3 {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    color: #269544;
+    margin: 0px;
+}
+.home .card3 {
+    padding: 24px;
+    background-color: #F7EEEE;
+    border: 1px solid #EDD6D6;
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+.home .card3 img {
+    margin-bottom: 24px;
+}
+.home .card-text .text3 {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    color: #952626;
+    margin: 0px;
+}
+.home .chart-wrap {
+    padding: 16px;
+    background-color: white;
+    border-radius: 12px;
+}
+.home .chart-wrap p {
+    font-size: 14px;
+    line-height: 120%;
+    margin-bottom: 16px;
+}

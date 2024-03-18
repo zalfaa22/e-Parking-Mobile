@@ -1,0 +1,29 @@
+.component-container {
+    max-width: 375px !important; 
+    margin: 0 auto !important;
+  }
+.menubar {
+    bottom: 0;
+    position: fixed;
+    /* left: 0; */
+    max-width: 375px;
+    width: 100%;
+}
+.menubar .menu .scan {
+    padding-bottom: 1.8rem !important;
+}
+.menubar .menu {
+    background: transparent;
+    height: 98px;
+    /* padding: 0px 40px 0 40px; */
+}
+.menubar .shape {
+    position: absolute;
+    z-index: -10;
+}
+.menubar .home {
+    padding-left: 45px;
+}
+.menubar .profile {
+    padding-right: 45px;
+}

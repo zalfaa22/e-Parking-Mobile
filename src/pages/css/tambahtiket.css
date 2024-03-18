@@ -1,0 +1,120 @@
+.tambahtiket .container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tambahtiket .tiket-masuk {
+    margin-bottom: 48px;
+}
+
+
+/* TIKET MASUK */
+.tiketmasuk .form-control1 {
+    width: 100%;
+    height: 44px;
+    background-color: white !important;
+    padding: 12px;
+    border: 1px solid #E6E6E6;
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #55595C !important;
+}
+.tiketmasuk .content {
+    padding-top: 24px;
+}
+.tiketmasuk .form {
+    margin-bottom: 16px;
+}
+.tiketmasuk .form p {
+    margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+}
+.tiketmasuk .form-control {
+    width: 100%;
+    height: 44px;
+    background-color: transparent;
+    padding: 12px;
+    border: 1px solid #E6E6E6;
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #55595C;
+}
+.tiketmasuk .form-control::placeholder {
+    color: #55595C;
+}
+.tiketmasuk .form-control4 {
+    width: 100%;
+    height: 44px;
+    background-color: white !important;
+    padding: 12px;
+    border: 1px solid #E6E6E6;
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #55595C !important;
+}
+.tiketmasuk .form-control4::placeholder {
+    color: #CDD0D3;
+}
+.tiketmasuk .pelaksanaan , .jam {
+    position: relative;
+    display: inline-block;
+}
+.tiketmasuk .pelaksanaan::before {
+    content: url('../../../public/assets/scan/Clock Square.svg'); 
+    position: absolute;
+    right: 18px;
+    top: 55%;
+    transform: translateY(-50%);
+  }
+  .tiketmasuk .jam::before {
+    content: url('../../../public/assets/scan/Clock Circle.svg');
+    position: absolute;
+    right: 18px; 
+    top: 55%;
+    transform: translateY(-50%);
+  }
+
+.tiketmasuk .card-wrap {
+    width: 100%;
+    display: flex;
+}
+.tiketmasuk .group {
+    padding: 0px;
+}
+.tiketmasuk .card {
+    padding: 24px 15px 24px 15px;
+    background-color: rgba(81, 180, 108, 0.2);
+    border: 1px solid #269544;
+    border-radius: 12px;
+    height: 224px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tiketmasuk .card p {
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+    color: #269544;
+    margin-top: 8px !important;
+}
+.tiketmasuk .event {
+    position: relative;
+    display: inline-block;
+}
+.tiketmasuk .event::before {
+    content: url('../../../public/assets/tambahtiket/Arrow Down.svg'); 
+    position: absolute;
+    right: 18px;
+    top: 55%;
+    transform: translateY(-50%);
+  }
