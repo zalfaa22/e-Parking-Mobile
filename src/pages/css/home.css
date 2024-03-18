@@ -16,6 +16,10 @@
   overflow-y: auto; 
   /* max-height: calc(100vh - 80px); */
 }
+
+.home .content {
+    padding-bottom: 98px;
+}
 .home .profile {
     padding: 24px 0 24px 0;
 }  
