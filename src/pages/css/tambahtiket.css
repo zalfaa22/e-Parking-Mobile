@@ -20,7 +20,7 @@
     line-height: 20px;
     font-weight: 400;
     color: #55595C !important;
-    z-index: -1;
+    
 }
 .tiketmasuk .content {
     padding-top: 24px;
@@ -45,7 +45,7 @@
     line-height: 20px;
     font-weight: 400;
     color: #55595C;
-    z-index: -1;
+    
 }
 .tiketmasuk .form-control::placeholder {
     color: #55595C;
@@ -61,7 +61,7 @@
     line-height: 20px;
     font-weight: 400;
     color: #55595C !important;
-    z-index: -1;
+    
 }
 .tiketmasuk .form-control4::placeholder {
     color: #CDD0D3;

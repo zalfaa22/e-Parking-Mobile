@@ -72,7 +72,7 @@
     line-height: 20px;
     font-weight: 400;
     color: #55595C;
-    z-index: -1;
+    
 }
 .scanmasuk .form-control::placeholder {
     color: #55595C;
@@ -88,7 +88,7 @@
     line-height: 20px;
     font-weight: 400;
     color: #55595C !important;
-    z-index: -1;
+    
 }
 .scanmasuk .form-control4::placeholder {
     color: #CDD0D3;
