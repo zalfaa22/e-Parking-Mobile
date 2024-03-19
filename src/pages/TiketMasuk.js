@@ -1,6 +1,25 @@
-import React from 'react'
+import React, { useState } from "react";
 
 export default function TiketMasuk() {
+  const [selectedImage1, setSelectedImage1] = useState(null);
+  const [selectedImage2, setSelectedImage2] = useState(null);
+
+  const handleFileUpload1 = (files) => {
+    const reader = new FileReader();
+    reader.onload = function (e) {
+      setSelectedImage1(e.target.result);
+    };
+    reader.readAsDataURL(files[0]);
+  };
+
+  const handleFileUpload2 = (files) => {
+    const reader = new FileReader();
+    reader.onload = function (e) {
+      setSelectedImage2(e.target.result);
+    };
+    reader.readAsDataURL(files[0]);
+  };
+
   return (
     <>
     <div className='tiketmasuk'>
@@ -70,27 +89,61 @@ export default function TiketMasuk() {
               <div className="d-flex row row-cols-2 card-wrap p-0 m-0">
               <div className="group" style={{paddingRight: "8px"}}>
                 <div className="col">
-                <div className="card text-center">
-                    <img
-                      src="../assets/scan/camera.svg"
-                      className=""
-                      alt="..."
-                    />
-                    <p className="m-0">Ambil foto kendaraan</p>
+                    <label
+                      htmlFor="uploadInput1"
+                      className="card text-center"
+                      style={{
+                        backgroundImage: `url(${selectedImage1})`,
+                        backgroundSize: "cover",
+                      }}
+                    >
+                      <input
+                        type="file"
+                        id="uploadInput1"
+                        style={{ display: "none" }}
+                        onChange={(e) => handleFileUpload1(e.target.files)}
+                      />
+                      {!selectedImage1 && (
+                        <>
+                          <img
+                            src="../assets/scan/camera.svg"
+                            className=""
+                            alt="..."
+                          />
+                          <p className="m-0">Ambil foto kendaraan</p>
+                        </>
+                      )}
+                    </label>
                   </div>
-                </div>
               </div>
               <div className="group" style={{paddingLeft: "8px"}}>
-                <div className="col">
-                  <div className="card text-center">
-                    <img
-                      src="../assets/scan/camera.svg"
-                      className=""
-                      alt="..."
-                    />
-                    <p className="m-0">Ambil foto kendaraan</p>
+              <div className="col">
+                    <label
+                      htmlFor="uploadInput2"
+                      className="card text-center"
+                      style={{
+                        backgroundImage: `url(${selectedImage2})`,
+                        backgroundSize: "cover",
+                      }}
+                    >
+                      <input
+                        type="file"
+                        id="uploadInput2"
+                        style={{ display: "none" }}
+                        onChange={(e) => handleFileUpload2(e.target.files)}
+                      />
+                      {!selectedImage2 && (
+                        <>
+                          <img
+                            src="../assets/scan/camera.svg"
+                            className=""
+                            alt="..."
+                          />
+                          <p className="m-0">Ambil foto kendaraan</p>
+                        </>
+                      )}
+                    </label>
                   </div>
-                </div>
               </div>
 
               </div>

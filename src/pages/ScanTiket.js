@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import "./css/scan.css";
 
 export default function ScanTiket() {
+  const videoRef = useRef();
+
+  useEffect(() => {
+    const startCamera = async () => {
+      try {
+        const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+        videoRef.current.srcObject = stream;
+      } catch (error) {
+        console.error("Error accessing camera:", error);
+      }
+    };
+
+    startCamera(); // Panggil fungsi startCamera() saat komponen dimuat
+  }, []); // Gunakan array kosong agar efek hanya dijalankan sekali saat komponen dimuat
+
   return (
     <>
       <div className="scantiket">
@@ -27,6 +42,7 @@ export default function ScanTiket() {
         </div>
         <div className="container2">
           <div className="content text-center">
+          <video ref={videoRef} autoPlay playsInline className="camera-video"></video>
             <a href="/scantiketmasuk">
             <img src="../assets/scan/scan.svg" className="scan-img" alt="" />
             </a>

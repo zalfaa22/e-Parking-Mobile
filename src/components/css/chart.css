@@ -18,11 +18,28 @@
     margin-bottom: 16px;
 }
 .chart .dengan {
+    position: relative;
     width: 32px;
     height: 218px;
     background-color: #269544;
     border-radius: 8px;
+    overflow: visible; 
 }
+.chart .dengan1 {
+    position: relative;
+    width: 32px;
+    height: 218px;
+    background-color: #269544;
+    border-radius: 8px;
+    overflow: visible; 
+}
+.dengan1:hover::after {
+    content: url('../../../public/assets/tooltip.svg'); 
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%) translateX(-20%);
+    opacity: 1;
+  }
 .chart .tanpa {
     width: 32px;
     height: 48px;

@@ -7,7 +7,7 @@ export default function Chart() {
         <div className='wraper d-flex align-items-end'>
             <div className='wrap'>
                 <div className='d-flex align-items-end size-chart'>
-                    <div className='dengan'></div>
+                    <div className='dengan1'></div>
                     <div className='tanpa'></div>
                 </div>
                 <p className='m-0'>Januari</p>

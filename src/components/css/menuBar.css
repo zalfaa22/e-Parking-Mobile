@@ -27,3 +27,23 @@
 .menubar .profile {
     padding-right: 45px;
 }
+
+@media (max-width: 361px) {
+    .menubar .menu .scan {
+        width: 48px;
+    }
+    .menubar .home {
+        padding-left: 38px;
+        width: 80px;
+    }
+    .menubar .profile {
+        padding-right: 38px;
+        width: 80px;
+    }
+}
+
+@media (max-width: 331px) {
+    .menubar .menu .scan {
+        padding-bottom: 1.4rem !important;
+    }
+}
