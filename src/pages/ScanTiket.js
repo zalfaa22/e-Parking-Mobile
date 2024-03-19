@@ -41,9 +41,9 @@ export default function ScanTiket() {
         </div>
         </div>
         <div className="container2">
-        <video ref={videoRef} autoPlay playsInline className="camera-video"></video>
+        {/* <video ref={videoRef} autoPlay playsInline className="camera-video"></video> */}
           <div className="content text-center">
-          {/* <video ref={videoRef} autoPlay playsInline className="camera-video"></video> */}
+          <video ref={videoRef} autoPlay playsInline className="camera-video"></video>
             <a href="/scantiketmasuk">
             <img src="../assets/scan/scan.svg" className="scan-img" alt="" />
             </a> 
