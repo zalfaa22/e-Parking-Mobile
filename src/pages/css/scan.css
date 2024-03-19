@@ -35,10 +35,10 @@
 .scantiket .container2 {
     padding: 88px 0 0 0;
 }
-/* .camera-video {
-    max-width: 373px;
-    min-height: 100vh !important;
-} */
+.camera-video {
+    width: 100vw; /* Lebar mengikuti viewport width */
+    height: 100vh; /* Tinggi mengikuti viewport height */
+  }
 
 
 
