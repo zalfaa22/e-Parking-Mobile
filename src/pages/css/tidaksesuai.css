@@ -14,6 +14,7 @@
 .tidaksesuai .form-control {
     border-radius: 10px;
     height: 36px;
+    z-index: -10;
 }
 .tidaksesuai .card-wrap {
     padding: 12px;
