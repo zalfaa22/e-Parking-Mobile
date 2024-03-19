@@ -36,8 +36,8 @@
     padding: 88px 0 0 0;
 }
 .camera-video {
-    width: 100%;
-    height: 100vh !important;
+    max-width: 373px;
+    min-height: 100vh !important;
 }
 
 

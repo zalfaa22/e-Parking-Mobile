@@ -7,7 +7,7 @@ export default function ScanTiket() {
   useEffect(() => {
     const startCamera = async () => {
       try {
-        const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+        const stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment' } });
         videoRef.current.srcObject = stream;
       } catch (error) {
         console.error("Error accessing camera:", error);
@@ -41,11 +41,12 @@ export default function ScanTiket() {
         </div>
         </div>
         <div className="container2">
+        <video ref={videoRef} autoPlay playsInline className="camera-video"></video>
           <div className="content text-center">
-          <video ref={videoRef} autoPlay playsInline className="camera-video"></video>
+          {/* <video ref={videoRef} autoPlay playsInline className="camera-video"></video> */}
             <a href="/scantiketmasuk">
             <img src="../assets/scan/scan.svg" className="scan-img" alt="" />
-            </a>
+            </a> 
           </div>
         </div>
         <div className="button-bottom">
