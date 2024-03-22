@@ -21,7 +21,7 @@ export default function Home() {
         <img src="../assets/home/Bus.svg" alt="" />
         <div className="card-text">
           <p className="text1">Total pengunjung hari ini,</p>
-          <p className="text2">Bambang Sutrisno</p>
+          <p className="text2">1.200 Pengunjung</p>
         </div>
       </div>
       <div className="d-flex double-card">
