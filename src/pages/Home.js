@@ -29,7 +29,7 @@ export default function Home() {
         <img src="../assets/home/ticket.svg" alt="" />
         <div className="card-text">
           <p className="text1">Parkir dengan tiket,</p>
-          <p className="text3">1.005 Pengunjung</p>
+          <p className="text3" style={{color: "#269544"}}>1.005 Pengunjung</p>
         </div>
       </div>
       <div className="card3">
